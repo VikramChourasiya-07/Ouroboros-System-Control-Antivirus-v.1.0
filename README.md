@@ -1,4 +1,4 @@
-Ouroboros System Control & Antivirus v.1.0
+#Ouroboros System Control & Antivirus v.1.0#
 This script provides a GUI interface for controlling the firewall, monitoring the network, monitoring storage and RAM, detecting and removing malicious software, and verifying the signature of a file with VirusTotal.
 
 Prerequisites
