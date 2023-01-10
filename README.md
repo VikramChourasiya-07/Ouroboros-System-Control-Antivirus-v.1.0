@@ -1,51 +1,51 @@
-Ouroboros System Control & Antivirus v.1.0
-<br>
-This script provides a GUI interface for controlling the firewall, monitoring the network, monitoring storage and RAM, detecting and removing malicious software, and verifying the signature of a file with VirusTotal.
+# Ouroboros System Control & Antivirus v.1.0
 
-Ouroboros System Control & Antivirus
-This script provides a GUI interface for controlling the firewall, monitoring the network, monitoring storage and RAM, detecting and removing malicious software, and verifying the signature of a file with VirusTotal.
+**This script provides a GUI interface for controlling the firewall, monitoring the network, monitoring storage and RAM, detecting and removing malicious software, and verifying the signature of a file with VirusTotal.**
 
-Prerequisites:
-Before using this script, make sure you have the following software installed on your Linux system:
-
-ufw (for firewall control)
-clamscan (for detecting and removing malicious software)
-curl (for interacting with the VirusTotal API)
-python3 (for running the script)
-Running the Script
-To run the script, open a terminal and enter the following command:
-
-bash ouroboros.sh
-
-Features
-Control the firewall
-Monitor the network
-Monitor storage and RAM usage
-Detect and remove malicious software
-Verify the signature of a file with VirusTotal
-
-Requirements
-Python 3
-tkinter (for the Python version)
-matplotlib (for the Python version)
-curl (for the Bash version)
-
-Usage
-To run the Python version:
-
-python3 ouroboros.py
-
-To run the Bash version:
-
-bash ouroboros.sh
-
-Credits
-Ouroboros was developed by OpenAI.
-
-License
-Ouroboros is released under the MIT License. See LICENSE for more details.
+![logo](/Ouroboros_logo.png?raw=true "Title")
 
 
 
+## Prerequisites:
 
-This will launch the GUI interface. Follow the prompts to use the various features of the script.
+**Before using this script, make sure you have the following software installed on your Linux system:**
+
+- `ufw` (for firewall control) 
+- `clamscan` (for detecting and removing malicious software) 
+- `curl` (for interacting with the VirusTotal API) `python3` (for running the script) 
+
+## Features:
+
+- `Control the firewall`
+- `Monitor the network`
+- `Monitor storage and RAM usage`
+- `Detect and remove malicious software`
+- `Verify the signature of a file with VirusTotal`
+
+## Requirements:
+
+- `Python 3`
+- `tkinter` (for the Python version)
+- `matplotlib` (for the Python version)
+- `curl` (for the Bash version)
+
+## Usage:
+
+###### To run the Python version:
+.`python3 ouroboros.py`
+
+###### To run the Bash version:
+`bash ouroboros.sh`
+
+## DISCLAIMER: 
+This tool is provided "as is" and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose are disclaimed. In no event shall the authors or copyright holders be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this tool, even if advised of the possibility of such damage.
+
+
+## Credits:
+Ouroboros was developed by Cerberus Autonomous
+
+
+## License:
+Ouroboros is released under the **GPL-2.0 license**. See LICENSE for more details.
+
+
